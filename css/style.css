@@ -207,6 +207,10 @@ header{
     padding-top:10px;
 }
 
+#welcome{
+    margin: 0;
+}
+
 nav li {
     font-size: 1em;
     margin-top: 1.5em;
@@ -236,6 +240,7 @@ nav li a:hover{
 .grid{
     display: flex;
     flex-direction: column;
+    margin: auto;
 }
 
 }
