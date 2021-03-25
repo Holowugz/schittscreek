@@ -214,7 +214,7 @@ header{
 nav li {
     font-size: 1em;
     margin-top: 1.5em;
-    padding:5px;
+    padding:0;
 }
 
 nav li a:hover{
