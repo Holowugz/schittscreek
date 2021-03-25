@@ -144,6 +144,49 @@ padding-top:10px;
     box-shadow: 10px 5px 5px #ccc;
 }
 
+/* .grid img:hover{
+    box-shadow: 10px 5px 5px #ccc;
+} */
+
+
+.eugene{
+    display: inline-block;
+}
+
+.grid:hover .eugene{
+    display: none;
+}
+
+.johnny{
+    display: none;
+}
+
+.grid:hover .johnny{
+    display: inline-block;
+}
+
+.catherine{
+    display: inline-block;
+}
+
+.grid:hover .catherine{
+    display: none;
+}
+
+.moira{
+    display: none;
+}
+
+.grid:hover .moira{
+    display: inline-block;
+}
+
+
+
+
+
+
+
 /* @-webkit-keyframes grid_grow{
     from {opacity: 0; width: 0px;}
     to {opacity: 1; width: 595px;}
@@ -182,6 +225,10 @@ nav li a:hover{
     text-underline-offset: 7px;
     text-decoration-thickness: 3px;
     color: #f1c616;
-
 }
+
+.newsfeed{
+    max-width: 600px;
+}
+
 }
