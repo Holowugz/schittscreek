@@ -201,7 +201,6 @@ header{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding:0;
 }
 
 #logo{
@@ -215,7 +214,7 @@ header{
 nav li {
     font-size: 1em;
     margin-top: 1.5em;
-    padding:0;
+    padding:5px;
 }
 
 nav li a:hover{
@@ -245,7 +244,4 @@ nav li a:hover{
     margin: auto;
 }
 
-footer{
-    padding:0;
-}
 }
