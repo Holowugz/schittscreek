@@ -241,6 +241,7 @@ nav li a:hover{
     display: flex;
     flex-direction: column;
     margin: auto;
+    padding:0;
 }
 
 footer{
