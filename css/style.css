@@ -215,7 +215,8 @@ header{
 nav li {
     font-size: 1em;
     margin-top: 1.5em;
-    padding:0;
+    margin-bottom: 1.5em;
+    padding: 1em;
 }
 
 nav li a:hover{
@@ -244,9 +245,7 @@ nav li a:hover{
     flex-direction: column;
     margin: auto;
 }
-
 footer{
-     padding:0;
-	}
-
+    padding:0;
+}
 }
