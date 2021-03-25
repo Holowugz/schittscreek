@@ -201,6 +201,7 @@ header{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding:0;
 }
 
 #logo{
@@ -243,5 +244,9 @@ nav li a:hover{
     flex-direction: column;
     margin: auto;
 }
+
+footer{
+     padding:0;
+	}
 
 }
