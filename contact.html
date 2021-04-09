@@ -9,6 +9,7 @@
     <title>Contact</title>
   </head>
  <body>
+  <div class="skip"><a href="#main">Skip to Main Content</a></div>
 	<header>
     <img src="images/creek_logo.png" alt="logo" id = "logo">
 		<nav>
@@ -23,13 +24,29 @@
   <main>
   <div class="sitewrapper">
     <div class="sitecontent">
-    <h1 id="welcome">Contact Placeholder</h1>
+    <h1 id="welcome">Contact</h1>
     
+    <form action="https://formspree.io/f/mpzkzyny" method="POST">
+      <fieldset>
+        <div class="contact">
+        <legend id="main">Let's Talk Schitt's Creek!</legend>
 
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" id="firstname" placeholder="First name"><br>
 
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastname" id="lastname" placeholder="Last name"><br>
 
+        <label for="email">Email Address</label>
+        <input type="email" name="email" id="email" placeholder="example@gmail.com"><br>
 
+        <label for="msg">Leave a message</label>
+        <textarea name="msg" id="msg" placeholder="Enter your message"></textarea><br>
 
+        <input type="submit" value="Let's Chat!">
+        </div>
+      </fieldset>
+    </form>
     </div>
   </div>
 
