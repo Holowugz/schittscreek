@@ -130,7 +130,6 @@ nav li a:hover{
 }
 
 
-
 .newsfeed{
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -232,7 +231,7 @@ legend {
   background-size: cover;
 }
 
-@media screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
 
     header{
         justify-content: center;
@@ -282,6 +281,7 @@ legend {
         flex-direction: column;
         margin: auto;
     }
+    
     footer{
         padding:0;
     }
@@ -347,9 +347,15 @@ legend {
     }
 }
     
-@media screen and (max-width: 1366px) {
+@media all and (max-width: 1024px) {
     .parallax {
       background-attachment: scroll;
     }
 
+}
+
+@media screen and (prefers-reduced-motion: reduce){
+    .parallax{
+    background-attachment: initial;
+    }
 }
