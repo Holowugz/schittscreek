@@ -175,6 +175,12 @@ padding-top:10px;
     display: inline-block;
 }
 
+.actor-character{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
 
 .contact{
 	display: flex;
@@ -343,6 +349,9 @@ legend {
     .parallax {
         min-height: 250px;
       }
+      .actor-character{
+        font-size: 12pt;
+    }
 }
     
 @media all and (max-width: 1024px) {
@@ -364,6 +373,10 @@ legend {
         grid-gap: 15px;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         padding-right: 5px;
+    }
+
+    .actor-character{
+        font-size: 14pt;
     }
 
 }
